@@ -1,0 +1,45 @@
+<ion-view view-title="Squadron Command">
+  <ion-nav-buttons side="primary">
+    <button class="button">
+      Game Turn: 1
+      <i class="icon ion-ios-play-outline"></i>
+    </button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="secondary">
+    <button class="button">
+      <i class="icon ion-ios-settings"></i>
+    </button>
+  </ion-nav-buttons>
+  <ion-content class="padding">
+    <div class="row padding-vertical">
+      <div class="col col-10"><h4>ID</h4></div>
+      <div class="col col-33"><h4>Ship</h4></div>
+      <div class="col"><h4>Nose</h4></div>
+      <div class="col"><h4>Top</h4></div>
+      <div class="col"><h4>Status</h4></div>
+      <!--<div class="col"></div>-->
+    </div>
+
+    <div class="row" ng-repeat-start="ship in ships">
+      <div class="col col-10 padding-vertical ship-info">{{ ship.id }}</div>
+      <div class="col col-33 padding-vertical ship-info">{{ ship.name }}</div>
+      <div class="col"><span class="{{ noseClass(ship.nose.band)}}">{{ ship.nose.dir }}</span></div>
+      <div class="col"><span class="{{ noseClass(ship.top.band)}}">{{ ship.top.dir }}</span></div>
+      <div class="col">
+        <span class="nose-up {{ completedClass(ship.complete) }}">{{ displayCompleted(ship.complete) }}</span>
+      </div>
+      <!--<div class="col-10">-->
+        <!--<i class="nose-up icon ion-chevron-right icon-accessory"></i>-->
+      <!--</div>-->
+    </div>
+    <hr ng-repeat-end/>
+
+    <div class="row">
+      <button class="button button-positive">Add ship</button>
+    </div>
+    <hr/>
+    <div class="row">
+      <button class="button bottom-warning">New Game</button>
+    </div>
+  </ion-content>
+</ion-view>
