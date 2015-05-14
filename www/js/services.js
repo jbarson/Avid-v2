@@ -1,3 +1,5 @@
+/// <reference path="../../typings/cordova/cordova.d.ts"/>
+/// <reference path="../../typings/angularjs/angular.d.ts"/>
 angular.module('avid.services', [])
 
   .factory('Ships', function () {
@@ -25,13 +27,16 @@ angular.module('avid.services', [])
           }
         }
         return null;
+      },
+      add: function (ship) {
+        ships.push(ship);
       }
     };
   });
   
   angular.module('avid.services').factory('Targets',function () {
     var targets=[
-      {id: "001", }
+
     ];
     
     return {
