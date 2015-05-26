@@ -83,6 +83,16 @@ angular.module('avid', ['ionic', 'avid.controllers', 'avid.services'])
             controller: 'AccountCtrl'
           }
         }
+      })
+
+      .state('tab.bearing', {
+        url: '/bearing',
+        views: {
+          'tab-bearing': {
+            templateUrl: 'templates/tab-bearing.html',
+            controller: 'BearingCtrl as bearing'
+          }
+        }
       });
 
     // if none of the above states are matched, use this as the fallback

@@ -2,6 +2,6 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{Avid node_modules}" />
-    <file url="PROJECT" libraries="{karma-jasmine}" />
+    <file url="PROJECT" libraries="{karma-jasmine, snapsvg-DefinitelyTyped}" />
   </component>
 </project>
