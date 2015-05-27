@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8f7fbae-bcf3-4f09-be34-43c34782d464" name="Default" comment="starting work on fishbowl">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/services/ada-avid-manipulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tab-bearing.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/base2-avid.html" afterPath="$PROJECT_DIR$/www/templates/base-avid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Avid.iml" afterPath="$PROJECT_DIR$/.idea/Avid.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/directives/ada-avid-direction.js" afterPath="$PROJECT_DIR$/www/js/directives/ada-avid-direction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ionic.app.css" afterPath="$PROJECT_DIR$/www/css/ionic.app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/ionic.app.min.css" afterPath="$PROJECT_DIR$/www/css/ionic.app.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/ionic.app.scss" afterPath="$PROJECT_DIR$/scss/ionic.app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
+    <list default="true" id="c8f7fbae-bcf3-4f09-be34-43c34782d464" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Avid.iws" />
@@ -50,7 +36,7 @@
       <file leaf-file-name="tab-bearing.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/tab-bearing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.178572">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding />
             </state>
@@ -100,7 +86,7 @@
       <file leaf-file-name="ionic.app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/ionic.app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-48.42857">
+            <state vertical-scroll-proportion="0.0">
               <caret line="469" column="14" selection-start-line="469" selection-start-column="14" selection-end-line="469" selection-end-column="14" />
               <folding />
             </state>
@@ -120,9 +106,61 @@
       <file leaf-file-name="base-fishbowl.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/templates/base-fishbowl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.052192066">
-              <caret line="1" column="116" selection-start-line="1" selection-start-column="103" selection-end-line="1" selection-end-column="116" />
-              <folding />
+            <state vertical-scroll-proportion="0.20457605">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="n#g#0;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#1;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#2;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#3;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#4;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#5;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#6;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#7;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#8;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#9;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#10;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#11;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#12;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#13;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#14;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#15;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#16;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#17;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#18;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#19;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#20;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#21;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#22;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#23;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#24;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#25;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#26;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#27;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#28;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#29;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#30;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#31;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#32;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#33;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#34;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#35;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#36;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#37;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#38;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#39;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#40;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#41;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#42;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#43;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#44;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#45;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#46;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#47;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#path#0;n#g#48;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#g#52;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#g#53;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -271,7 +309,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -282,116 +320,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -483,7 +412,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431609405013</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="starting work on fishbowl">
+      <created>1432599921068</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1432599921068</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -497,29 +432,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.50743496" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25071838" sideWeight="0.49256507" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -535,12 +470,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.49256507" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -871,11 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#188#1108#0" expanded="false" />
-            <element signature="e#1179#1404#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,7 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/ionic.app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-48.42857">
+        <state vertical-scroll-proportion="0.0">
           <caret line="469" column="14" selection-start-line="469" selection-start-column="14" selection-end-line="469" selection-end-column="14" />
           <folding />
         </state>
@@ -952,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/tab-bearing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.178572">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding />
         </state>
@@ -960,9 +890,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/base-fishbowl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052192066">
-          <caret line="1" column="116" selection-start-line="1" selection-start-column="103" selection-end-line="1" selection-end-column="116" />
-          <folding />
+        <state vertical-scroll-proportion="0.20457605">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="n#g#0;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#1;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#2;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#3;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#4;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#5;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#6;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#7;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#8;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#9;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#10;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#11;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#12;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#13;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#14;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#15;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#16;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#17;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#18;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#19;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#20;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#21;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#22;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#23;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#24;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#25;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#26;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#27;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#28;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#29;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#30;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#31;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#32;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#33;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#34;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#35;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#36;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#37;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#38;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#39;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#40;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#41;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#42;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#43;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#44;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#45;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#46;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#47;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#path#0;n#g#48;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#g#52;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#g#53;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
