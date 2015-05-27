@@ -7603,26 +7603,6 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-.avid-amber {
-  background-color: #f5f5cf;
-  color: #444444;
-  width: 4em; }
-
-.avid-blue {
-  background-color: #9ccde0;
-  color: #444444;
-  width: 4em; }
-
-.avid-green {
-  background-color: #bfe0d2;
-  color: #444444;
-  width: 4em; }
-
-.avid-purple {
-  background-color: #d8bfc9;
-  color: #444444;
-  width: 4em; }
-
 .nose-down {
   border: black solid; }
 
@@ -7630,27 +7610,26 @@ a.button {
   border: #cccccc solid; }
 
 .svgAvidDirectionLetter {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   line-height: 100%;
   text-anchor: middle;
   letter-spacing: 0;
   word-spacing: 0;
-  fill: #8b0304;
+  fill: #0071bc;
   fill-opacity: 1;
   stroke: none;
   font-family: sans-serif; }
 
 .svgAvidDirectionLetterPair {
   font-size: 16px;
-  font-weight: lighter;
+  font-weight: bolder;
   line-height: 100%;
   text-anchor: middle;
   letter-spacing: 0;
   word-spacing: 0;
-  fill: #eeeeee;
+  fill: #ffffff;
   fill-opacity: 1;
-  stroke: none;
   font-family: sans-serif; }
 
 .svgIconPlate {
@@ -7917,18 +7896,15 @@ a.button {
 .svgAxisPolygon {
   fill: none;
   stroke: #808080;
-  stroke-width: 2;
+  stroke-width: 4;
   stroke-miterlimit: 10; }
 
 .svgAxisEllipse {
   fill: #808080; }
 
 .svgWindow {
-  opacity: 0.75;
-  fill-opacity: 0.05;
-  fill: #ffffff;
-  stroke: #ed1c24;
-  stroke-width: 0.99250001; }
+  stroke: #0071bc;
+  stroke-width: 1; }
 
 .svgEvent {
   fill: #78f000;
@@ -8010,3 +7986,7 @@ a.button {
 
 .ship-info {
   font-weight: bold; }
+
+svg {
+  display: block;
+  margin: auto; }
