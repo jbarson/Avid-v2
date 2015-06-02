@@ -124,24 +124,32 @@ function BearingCtrl (){
   var vm = this;
 
   vm.test = "test";
-  vm.init = init;
-  function init(){
-    var snap = Snap('#avidWrapper');
-    var arrows = snap.select('#vectorArrows');
-    var mode1 = snap.select('#mode1DataDisplay');
-    var plusLabel = snap.select('#iconAvidLabelPlusText');
-    var minusLabel =snap.select('#iconAvidLabelMinusText');
-    arrows.attr({visibility: 'visible', 'fill-opacity': 0, 'stroke-opacity': '0'});
-    arrows.animate({'fill-opacity': '1', 'stroke-opacity': '1'}, 500, function () {
-      arrows.attr({visibility: 'visible', 'fill-opacity': 1, 'stroke-opacity': '1'});
-    });
-    mode1.animate({'fill-opacity': '0', 'stroke-opacity': '0'}, 500, function () {
-      mode1.attr({visibility: 'hidden', 'fill-opacity': 1, 'stroke-opacity': '1'});
-    });
-    plusLabel.attr({visibility: 'visible'});
-    minusLabel.attr({visibility: 'visible'});
-  }
+  vm.horizontalDistance = 0;
+  vm.verticalDistance = 0;
+  var arrows = document.querySelector('#horizontalBearingArrows');
+  vm.flipAvid = function(){
 
+   // console.log(arrows.getAttribute('visibility'));
+    //if (arrows.getAttribute('visibility')==='visible'){arrows.setAttribute('visibility','hidden')}
+    //console.log(arrows.getAttribute('visibility'));
+
+    document.querySelector('#verticalSlider').classList.toggle('hide');
+    document.querySelector('#verticalSlider').classList.toggle('distanceSlider');
+    document.querySelector(".flipper").classList.toggle("flip");
+    document.querySelector("#up-down-arrows").classList.toggle("ada-visible");
+    document.querySelector("#up-down-arrows").classList.toggle("ada-invisible");
+  };
+
+  vm.shootBearingSetup = function(){
+    //console.log('hi')
+    //if (arrows.getAttribute('visibility')==='visible'){arrows.setAttribute('visibility','hidden')}else{arrows.setAttribute('visibility','visible')}
+    document.querySelector('#horizontalBearingArrows').classList.toggle("ada-visible");
+    document.querySelector('#horizontalBearingArrows').classList.toggle("ada-invisible");
+  };
+
+  vm.setDirection = function(direction){
+    console.log(direction);
+  }
 
 
 }

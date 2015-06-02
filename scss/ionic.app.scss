@@ -469,3 +469,115 @@ svg {
   display: block;
   margin: auto;
 }
+
+.avid {
+
+  height: 325px;
+}
+.flip-container {
+  perspective: 1000;
+}
+/* flip the pane when hovered */
+.flip {
+  -webkit-transform: rotateX(75deg);
+  transform: rotateX(75deg);
+  opacity: 0.1;
+}
+
+.flip-container, .front, .back {
+  width: 375px;
+  height: 375px;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.5s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  z-index: 0;
+  fill:#000000;
+  fill-opacity:0.5;
+
+
+}
+
+.ada-visible {
+  fill-opacity: 0.8;
+  z-index: 2;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  visibility: visible;
+  transform: translateZ(1000px);
+  transform-style: preserve-3d;
+}
+
+.ada-invisible {
+  z-index: 2;
+  fill-opacity: 0.0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  visibility: hidden;
+  transform: translateZ(1000px);
+  transform-style: preserve-3d;
+}
+
+.shootingHorizontal {
+  fill-opacity: 0.5;
+}
+
+
+.distanceSlider {
+  position: absolute;
+  z-index: 100;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 100% -100%;
+  transform: rotate(-90deg);
+  transform-origin: 0% 100%;
+  left: 200px;
+  top:220px;
+  visibility: visible;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.hide{
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+input[type=range]{
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 500px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: $calm;
+  margin-top: -6px;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}

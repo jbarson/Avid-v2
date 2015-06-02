@@ -10,11 +10,40 @@
       <i class="icon ion-ios-settings"></i>
     </button>
   </ion-nav-buttons>
-  <ion-content class="padding">
+  <ion-content scroll="false">
+    <input type="range"
+           class="hide"
+           id="verticalSlider"
+           min="-30" max="30" value="0"
+           ng-model="bearing.verticalDistance"
+      />
 
-    <div ng-include="'templates/base-avid.html'"></div>
-    <div ng-include="'templates/base-fishbowl.html'"></div>
-    <button ng-click="bearing.init()">init</button>
+    <div ng-include="'templates/base-arrows.html'" class="background"></div>
+    <div class="flip-container">
+
+      <div class="flipper">
+        <div id="bearAvid" class="avid" ng-include="'templates/base-avid.html'"></div>
+      </div>
+    </div>
+    <div style="text-align: center;margin: auto;">
+    <label for="horizontalDistanceSlider">Horizontal Distance</label>
+    <br/>
+    <input type="range"
+           name="HorizontalDistance"
+           id="horizontalDistanceSlider"
+           class="horizontalDistanceSlider"
+           min="0" max="30" value="0"
+           ng-model="bearing.horizontalDistance"/>
+    <br/>
+    Hdist: {{ bearing.horizontalDistance }}
+    Vdist: {{ bearing.verticalDistance }}
+    <br/>
+
+    <button class="button button-calm" ng-click="bearing.flipAvid()">Flip</button>
+    <button class="button button-balanced" ng-click="bearing.shootBearingSetup()">Shoot Bearing</button>
+    </div>
+
+    <!--<div id="bearFish" ng-include="'templates/base-fishbowl.html'"></div>-->
 
   </ion-content>
 </ion-view>
