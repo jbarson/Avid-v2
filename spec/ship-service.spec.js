@@ -1,6 +1,11 @@
+"use strict";
 
-describe('test', function () {
-  it('should make sure true is true', function () {
-    expect(5).toBeTruthy();
+describe('Unit: Ships service', function () {
+  beforeEach(module)
+
+  it('Confirm the Angular version', function () {
+
+    expect(angular.version.full).toBe("1.3.13");
   });
+
 });

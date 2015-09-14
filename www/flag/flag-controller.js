@@ -3,11 +3,6 @@
 angular
   .module('avid.controllers', [])
   .controller('FlagCtrl', FlagCtrl)
-  .controller('AttitudeCtrl', function () {
-  })
-  .controller('AccountCtrl', function () {
-  })
-  .controller('BearingCtrl', BearingCtrl);
 
 
 function FlagCtrl($scope, Ships) {
@@ -15,12 +10,12 @@ function FlagCtrl($scope, Ships) {
   var vm = this;
   vm.ships = Ships.all();
 
-  var rotations=[0,180,-90,90];
+
   vm.update = function () {
     vm.moveMode = vm.moveModeSelected;
 
   };
-
+  var rotations=[0,180,-90,90];
   vm.changeHeading = function(dir){
     var snap = Snap('#avidWrapper');
     var nose = snap.select('#iconNose');
@@ -117,39 +112,4 @@ function FlagCtrl($scope, Ships) {
   $scope.completedClass = function (done) {
     return done ? "badge badge-dark" : "badge badge-stable";
   };
-}
-
-
-function BearingCtrl (){
-  var vm = this;
-
-  vm.test = "test";
-  vm.horizontalDistance = 0;
-  vm.verticalDistance = 0;
-  var arrows = document.querySelector('#horizontalBearingArrows');
-  vm.flipAvid = function(){
-
-   // console.log(arrows.getAttribute('visibility'));
-    //if (arrows.getAttribute('visibility')==='visible'){arrows.setAttribute('visibility','hidden')}
-    //console.log(arrows.getAttribute('visibility'));
-
-    document.querySelector('#verticalSlider').classList.toggle('hide');
-    document.querySelector('#verticalSlider').classList.toggle('distanceSlider');
-    document.querySelector(".flipper").classList.toggle("flip");
-    document.querySelector("#up-down-arrows").classList.toggle("ada-visible");
-    document.querySelector("#up-down-arrows").classList.toggle("ada-invisible");
-  };
-
-  vm.shootBearingSetup = function(){
-    //if (arrows.getAttribute('visibility')==='visible'){arrows.setAttribute('visibility','hidden')}else{arrows.setAttribute('visibility','visible')}
-    document.querySelector('#horizontalBearingArrows').classList.toggle("ada-visible");
-    document.querySelector('#horizontalBearingArrows').classList.toggle("ada-invisible");
-  };
-
-  vm.setDirection = function(direction){
-    console.log(direction);
-    document.querySelector('#horizontalBearingArrows').classList.toggle("ada-invisible");
-  }
-
-
 }

@@ -1,0 +1,56 @@
+<ion-view view-title="Squadron Command">
+  <ion-nav-buttons side="primary">
+    <button class="button">
+      Turn: 1
+      <i class="icon ion-ios-play-outline"></i>
+    </button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="secondary">
+    <button class="button">
+      <i class="icon ion-ios-settings"></i>
+    </button>
+  </ion-nav-buttons>
+  <ion-content class="padding">
+
+    <div ng-repeat="ship in flag.ships">
+      <div >
+        <div class="item item-divider">
+          <i class="icon ion-navicon-round"></i>
+        	<span class="">{{ ship.id }}</span>
+          <span class="">{{ ship.name }}</span>
+        </div>
+        <div class="item item-text-wrap">
+          <!--<img src="img/mode1.png" height="50" style="float:right; margin-top:10px;">-->
+          <!--<ada-avid-direction nose="{{ ship.nose }}" top="{{ ship.top }}" mode="{{ flag.moveMode }}"></ada-avid-direction>-->
+          <!--<div>-->
+            <!--<div class="button-bar">-->
+              <!--<a class="button" ng-click="flag.changeMode(0)">M0</a>-->
+              <!--<a class="button" ng-click="flag.changeMode(1)">M1</a>-->
+              <!--<a class="button" ng-click="flag.changeMode(2)">M2</a>-->
+              <!--</div>-->
+            <!--<div class="button-bar">-->
+              <!--<a class="button button-assertive" ng-click="flag.changeHeading('p')">Prt</a>-->
+              <!--<a class="button button-balanced" ng-click="flag.changeHeading('s')">Stb</a>-->
+            <!--</div>-->
+            <!--<div class="button-bar">-->
+              <!--<a class="button button-calm" ng-click="flag.pitchUpDown('u')">Pitch Up</a>-->
+              <!--<a class="button button-energized" ng-click="flag.pitchUpDown('d')">Pitch Down</a>-->
+            <!--</div>-->
+          <!--</div>-->
+
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+
+      <div class="col-10">
+        <i class="nose-up icon ion-chevron-right icon-accessory"></i>
+      </div>
+
+
+    <div class="row">
+      <button class="button button-positive">Add ship</button>
+    </div>
+    <hr/>
+
+  </ion-content>
+</ion-view>

@@ -15,7 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'js/*.js',
+      'www/lib/ionic/js/ionic.bundle.js',
+      'www/js/*.js',
       'spec/*.spec.js'
     ],
 

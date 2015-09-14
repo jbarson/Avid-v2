@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" id="avidWrapper" width="400" height="400" viewBox="0 0 400 400" >
+        <g id="avidWrapperG">
+          <svg id="avidColored" x="50" y="50" width="400" height="400" viewBox="0 0 400 400">
+            <defs>
+              <radialGradient id="yellowGradient">
+                <stop stop-color="#FCFBEB" offset="0.75"></stop>
+                <stop stop-color="#F6F1B7" offset="0.95"></stop>
+              </radialGradient>
+              <radialGradient id="blueGradient">
+                <stop stop-color="#B8E5FA" offset="0.6"></stop>
+                <stop stop-color="#44C8F5" offset="0.95"></stop>
+              </radialGradient>
+              <radialGradient id="greenGradient">
+                <stop stop-color="#DCF0EC" offset="0.51"></stop>
+                <stop stop-color="#99D4C0" offset="0.95"></stop>
+              </radialGradient>
+              <radialGradient id="purpleGradient">
+                <stop stop-color="#ebdfe4" offset="0.1"></stop>
+                <stop stop-color="#d8bfc9" offset="0.95"></stop>
+              </radialGradient>
+            </defs>
+            <g id="avidBackground" >
+              <polygon id="avidColoredHexagon" 
+                  stroke="#0071bc" 
+                  points="237.85,295.11 80.24,295.11 1.43,158.72 80.24,22.32 237.85,22.32 316.66,158.72" 
+                  stroke-width="1.5" 
+                  fill="#004071">
+              </polygon>
+              
+      	<g transform="matrix(1.5467231,0,0,1.5402244,0.08877356,-237.28072)">
+              <circle id="yellowCircle" fill="url(#yellowGradient)" r="87.5" cx="103" cy="257"></circle>
+              <circle id="blueCircle" fill="url(#blueGradient)" r="63" cx="103" cy="257"></circle>
+              <circle id="greenCircle" fill="url(#greenGradient)" r="37.8" cx="103" cy="257"></circle>
+              <circle id="purpleCircle" fill="url(#purpleGradient)" r="16" cx="103" cy="257"></circle>
+            </g>
+            </g>
+
+            <text id="iconAvidLabelAText" x="160" y="16.5" width="33" height="33" class="svgAvidDirectionLetter" style="fill: rgb(0, 64, 113);">A</text>
+            <text id="iconAvidLabelBText" x="288.5" y="90.5" width="33" height="33" class="svgAvidDirectionLetter" style="fill: rgb(0, 64, 113);">B</text>
+            <text id="iconAvidLabelCText" x="288.5" y="240.5" width="33" height="33" class="svgAvidDirectionLetter" style="fill: rgb(0, 64, 113);">C</text>
+            <text id="iconAvidLabelDText" x="160" y="314"  width="33" height="33" class="svgAvidDirectionLetter" style="fill: rgb(0, 64, 113);">D</text>
+            <text id="iconAvidLabelEText" x="30.5" y="240.5"  width="33" height="33" class="svgAvidDirectionLetter" style="fill: rgb(0, 64, 113);">E</text>
+            <text id="iconAvidLabelFText" x="30.5" y="90.5"  width="33" height="33" class="svgAvidDirectionLetter" style="fill: rgb(0, 64, 113);">F</text>
+            <text id="iconAvidLabelABText" x="198.5" y="97.5"  width="33" height="33" class="svgAvidDirectionLetterPair">A/B</text>
+            <text id="iconAvidLabelBCText" x="237.5" y="164.5"  width="33" height="33" class="svgAvidDirectionLetterPair">B/C</text>
+            <text id="iconAvidLabelCDText" x="198.5" y="231"  width="33" height="33" xml:space="preserve" class="svgAvidDirectionLetterPair">C/D</text>
+            <text id="iconAvidLabelDEText" x="121.5" y="231"  width="33" height="33" xml:space="preserve" class="svgAvidDirectionLetterPair">D/E</text>
+            <text id="iconAvidLabelEFText" x="82.5" y="164.5"  width="33" height="33" class="svgAvidDirectionLetterPair">E/F</text>
+            <text id="iconAvidLabelFAText" x="121.5" y="97.5"  width="33" height="33" class="svgAvidDirectionLetterPair">F/A</text>
+          </svg>
+          
+          <svg id="avidWindows" x="59.50" y="58.7">
+            <g id="avidWindowsG" transform="matrix(0.99635865,0,0,0.99635287,-52.066645,60.810606)">
+                <path id="b00.000"
+                      d="m 237.973,-41.533 -10.131,37.841 c -16.391,-4.398 -33.65,-4.398 -50.026,0 l -10.144,-37.841 c 23.033,-6.192 47.266,-6.192 70.301,0 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.030"
+                      d="m 298.564,-6.654 c -16.796,-16.73 -37.685,-28.751 -60.591,-34.879l -10.131,37.841 c 16.377,4.382 31.319,13.019 43.302,25.012 l 27.722,-27.699 -0.302,-0.275 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.060"
+                      d="M 298.866,-6.379 271.147,21.32 c 12.007,11.987 20.638,26.948 25.032,43.346
+                      l 37.829,-10.149 c -6.16,-23.043 -18.294,-44.03 -35.142,-60.896 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.090"
+                      d="m 334.008,54.517 -37.829,10.149 c 4.394,16.377 4.394,33.623
+                      0,50.021 l 37.829,10.142 c 6.154,-22.95 6.183,-47.082 0.087,-70.035
+                      -0.018,-0.095 -0.053,-0.2 -0.087,-0.277 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.120"
+                      d="m 298.866,185.719 -27.719,-27.712 c 12.007,-11.986 20.638,-26.932
+                      25.032,-43.318 l 37.829,10.142 c -6.16,23.036 -18.294,44.022 -35.142,60.888 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.150"
+                      d="m 298.564,185.996 c -16.796,16.71 -37.685,28.764 -60.591,34.883
+                      l -10.131,-37.843 c 16.377,-4.401 31.319,-13.013 43.302,-25.031 l 27.722,27.712 -0.302,0.279 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.180"
+                      d="m 237.973,220.879 -10.131,-37.843 c -16.391,4.382 -33.65,4.382
+                      -50.026,0 l -10.14,37.843 c 23.029,6.17 47.262,6.17 70.297,0 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.210"
+                      d="m 107.074,185.996 c 16.808,16.71 37.702,28.764 60.602,34.883
+                      l 10.14,-37.843 c -16.393,-4.401 -31.338,-13.013 -43.33,-25.031 l -27.688,27.712 0.276,0.279 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.240"
+                      d="m 106.798,185.719 27.688,-27.712 c -11.997,-11.986 -20.617,-26.932
+                      -25.01,-43.318 l -37.854,10.142 c 6.191,23.036 18.311,44.022 35.176,60.888 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.270"
+                      d="m 71.601,54.517 37.828,10.149 c -4.392,16.377 -4.392,33.623 0,50.021
+                      L 71.601,124.83 c -6.156,-22.95 -6.183,-47.082 -0.089,-70.035
+                      0.021,-0.096 0.054,-0.201 0.089,-0.278 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.300"
+                      d="m 106.798,-6.379 27.688,27.699 c -11.997,11.987 -20.617,26.948
+                      -25.01,43.346 L 71.622,54.517 c 6.191,-23.043 18.311,-44.03 35.176,-60.896 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b00.330"
+                      d="m 107.074,-6.654 c 16.808,-16.73 37.702,-28.751 60.602,-34.879
+                      l 10.14,37.841 C 161.423,0.69 146.478,9.327 134.486,21.32 l -27.687,-27.699 0.275,-0.275 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.000"
+                      d="m 177.816,-3.692 9.877,36.923 c 9.908,-2.656 20.34,-2.656 30.236,0
+                      l 9.913,-36.923 c -16.388,-4.398 -33.649,-4.398 -50.026,0 z"
+                      class="svgWindow" style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.030"
+                      d="m 243.82,48.049 c -3.53,-3.48 -7.491,-6.483 -11.789,-8.98
+                      -4.423,-2.547 -9.158,-4.511 -14.098,-5.837 l 9.909,-36.923
+                      c 16.376,4.382 31.318,13.019 43.302,25.012 l -27.019,27.022 -0.305,-0.294 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.060"
+                      d="m 296.179,64.668 -36.943,9.875 c -2.632,-9.9 -7.867,-18.919
+                      -15.11,-26.198 l 27.019,-27.022 c 12.009,11.986 20.64,26.945 25.034,43.345 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.090"
+                      d="m 261.235,89.669 c 0,-5.105 -0.673,-10.187 -1.999,-15.127
+                      l 36.943,-9.875 c 4.39,16.377 4.39,33.623 0,50.021 l -36.943,-9.891
+                      c 1.326,-4.922 1.999,-9.975 1.999,-15.047
+                      0,-0.027 0,-0.05 0,-0.081 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.120"
+                      d="m 296.179,114.688 -36.943,-9.891 c -2.632,9.9 -7.867,18.933
+                      -15.11,26.184 l 27.019,27.026 c 12.009,-11.988 20.64,-26.933 25.034,-43.319 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.150"
+                      d="m 243.82,131.287 c -3.53,3.487 -7.491,6.51 -11.789,8.988
+                      -4.423,2.545 -9.158,4.504 -14.098,5.839 l 9.909,36.922
+                      c 16.376,-4.401 31.318,-13.013 43.302,-25.031 l -27.019,-27.026 -0.305,0.308 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.180"
+                      d="m 177.816,183.037 9.877,-36.922 c 9.908,2.64 20.34,2.64 30.236,0
+                      l 9.913,36.922 c -16.388,4.383 -33.649,4.383 -50.026,0 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.210"
+                      d="m 161.822,131.287 c 3.53,3.487 7.5,6.51 11.791,8.988
+                      4.429,2.545 9.163,4.504 14.083,5.839 l -9.876,36.922
+                      c -16.395,-4.401 -31.341,-13.013 -43.333,-25.031 l 27.035,-27.026 0.3,0.308 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.240"
+                      d="m 109.477,114.688 36.925,-9.891 c 2.66,9.9 7.869,18.933
+                      15.12,26.184 l -27.035,27.026 c -11.998,-11.988 -20.618,-26.933 -25.01,-43.319 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.270"
+                      d="m 144.396,89.669 c 0,-5.105 0.672,-10.187 2.006,-15.127
+                      l -36.925,-9.875 c -4.405,16.377 -4.405,33.623 0,50.021
+                      l 36.925,-9.891 c -1.32,-4.922 -2.006,-9.975 -2.006,-15.047 0,-0.027 0,-0.05 0,-0.081 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.300"
+                      d="m 109.477,64.668 36.925,9.875 c 2.66,-9.9 7.869,-18.919
+                      15.12,-26.198 L 134.487,21.322 c -11.998,11.987 -20.618,26.946 -25.01,43.346 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b30.330"
+                      d="m 161.822,48.049 c 3.53,-3.48 7.5,-6.483 11.791,-8.98
+                      4.429,-2.547 9.163,-4.511 14.083,-5.837 L 177.82,-3.692
+                      C 161.425,0.69 146.479,9.327 134.487,21.32 l 27.035,27.022 0.3,-0.293 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b60.000"
+                      d="m 187.696,33.231 c -5.041,1.342 -9.563,3.283 -14.083,5.837
+                      l 16.799,29.154 c 11.917,-6.746 21.825,-1.646 24.813,0 l 16.803,-29.154
+                      c -4.473,-2.46 -9.104,-4.586 -14.099,-5.837 -10.066,-2.499 -20.138,-2.697 -30.233,0 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b60.060"
+                      d="m 259.239,74.542 c 1.327,4.942 2,10.022 2,15.127 l -33.65,0.031
+                      c 0.019,-8.86 -4.705,-17.047 -12.362,-21.48 l 16.804,-29.154
+                      c 4.417,2.558 8.493,5.674 12.097,9.275 7.241,7.283 12.479,16.301 15.111,26.201 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b60.120"
+                      d="m 259.232,104.8 c 1.334,-4.94 2.007,-10.022 2.007,-15.128
+                      l -33.655,-0.029 c 0.009,8.859 -4.702,17.045 -12.358,21.48
+                      l 16.797,29.154 c 4.415,-2.559 8.49,-5.672 12.094,-9.277 7.246,-7.282
+                      12.456,-16.3 15.115,-26.2 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b60.180"
+                      d="m 217.933,146.114 c 5.041,-1.343 9.579,-3.286 14.098,-5.839
+                      l -16.81,-29.154 c -11.918,6.747 -21.819,1.633 -24.808,-0.016
+                      l -16.799,29.168 c 4.474,2.461 9.09,4.587 14.085,5.838 10.067,2.505
+                      20.135,2.7 30.234,0.003 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b60.240"
+                      d="m 146.402,104.797 c -1.333,-4.928 -2.006,-10.019 -2.006,-15.128
+                      l 33.658,-0.026 c -0.013,8.859 4.698,17.032 12.357,21.465
+                      l -16.797,29.167 c -4.418,-2.556 -8.488,-5.685 -12.093,-9.295
+                      -7.25,-7.25 -12.46,-16.283 -15.119,-26.183 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);"
+                      opacity="0">
+                </path>
+                <path id="b60.300"
+                      d="m 146.402,74.542 c -1.333,4.942 -2.006,10.022 -2.006,15.127
+                      l 33.658,0.031 c -0.013,-8.86 4.698,-17.047 12.357,-21.48 L 173.616,39.066
+                      c -4.417,2.558 -8.488,5.674 -12.094,9.275 -7.251,7.283
+                      -12.461,16.301 -15.12,26.201 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);
+                      fill-opacity: 0;">
+                </path>
+                <path id="b90.pol"
+                      d="m 227.589,89.669 c 0,-13.691 -11.091,-24.781 -24.779,-24.781
+                      -13.664,0 -24.756,11.089 -24.756,24.781 0,13.678 11.092,24.773
+                      24.756,24.773 13.687,0 24.779,-11.093 24.779,-24.773 z"
+                      class="svgWindow"
+                      style="stroke: rgb(0,113,188);
+                      fill-opacity: 0;">
+                </path>
+            </g>
+          </svg>
+        </g>
+      </svg>
