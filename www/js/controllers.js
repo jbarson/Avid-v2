@@ -126,7 +126,7 @@ function BearingCtrl (){
   vm.test = "test";
   vm.horizontalDistance = 0;
   vm.verticalDistance = 0;
-  var arrows = document.querySelector('#horizontalBearingArrows');
+  // var arrows = document.querySelector('#horizontalBearingArrows');
   vm.flipAvid = function(){
 
    // console.log(arrows.getAttribute('visibility'));

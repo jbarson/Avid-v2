@@ -1,6 +1,6 @@
 {
   "name": "Avid",
-  "private": "true",
+  "private": true,
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#1.0.0-rc.3"
   }
